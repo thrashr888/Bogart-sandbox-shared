@@ -1,3 +1,4 @@
+***Bogart is currently unreleased. This is just a preview sandbox app.***
 
 Bogart: Sinatra for PHP
 =======================

@@ -1,0 +1,3 @@
+[submodule "vendor/Bogart"]
+	path = vendor/Bogart
+	url = git@github.com:thrashr888/Bogart.git
