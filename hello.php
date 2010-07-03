@@ -13,7 +13,7 @@ Get('/say/:hello/to/:world', function(Request $request, Response $response)
   //debug($req);
   echo 'test-'.join(', ', $test);
 
-  return View::HTML('other', $test);
+  return View::HTML('other', compact('test'));
 });
 
 // splat routes

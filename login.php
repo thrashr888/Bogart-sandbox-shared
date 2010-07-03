@@ -2,6 +2,10 @@
 
 namespace Bogart;
 
+require 'vendor/Bogart/lib/Bogart/App.php';
+
+$app = new App(__FILE__);
+
 Get('/login', function()
 {
   $message = '';
@@ -29,3 +33,5 @@ Get('/logout', function(User $user, Response $response)
   $user->logout();
   $response->redirect('/');
 });
+
+$app->run();
